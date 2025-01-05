@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viatours</title>
+    <link rel="icon" href="./assets/images/bar.png">
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <header>
+        <div class="sidebar1 " style="display:none" id="mySidebar">
+            <button onclick="C_lose()" class="btn_close"> &times;</button>
+            <a class="sidebar_a" href="#" class="item">Destinations</a>
+            <a class="sidebar_a" href="#" class="item">Activities</a>
+            <a  class="sidebar_a" href="#" class="item">Contact</a>
+          </div>
+   <nav>
+    <div class="navbar">
+        <ul>
+            <li><img class="imglog" src="./assets/images/logo.png" alt=""></li>
+            <li><a class="none"  href="#">Destinations</a></li>
+            <li><a class="none"  href="#">Activities</a></li>
+            <li><a class="none"   href="#">Contact</a></li>
+            <li><a class="none"  href="#">Créer un compte</a></li>
+            <li><button class="btn1">Se connecter</button></li>
+            <li><a onclick="O_pen() " class="sidebar_s" href="#"><img class="sidebar" src="./assets/images/sidebaricon.png" alt="sidebar"></a></li>
+        </ul>
+    </div>
+</nav>
+</header>
+<section>
+   
+        
+    
+
+        
+        
+   
+    <div class="div-2">
+        <img class="img" src="./assets/images/image1.png" alt="">
+        <h1>Des Souvenirs De <br>
+            Voyage Que Vous <br>
+            N’oublierez <span class="span1"> Jamais<span class="span2">.</span></span></h1>
+            <p class="p1">Des escapades locales aux aventures lointaines, trouvez ce qui vous <br>
+                rend heurux.n’importe quand n’importe ou</p>
+                <button class="btn1">Explore plus</button>
+    </div>
+    <div class="div-3">
+        <h2>Pourquoi nous?</h3>
+    </div>
+    <div class="div-4">
+        
+        <div class="item">
+            <img  src="./assets/images/image2.png" alt="Flexibilité ultime">
+            <h3>Flexibilité ultime</h3><p>Vous avez le controle, avec gratuite <br>
+            options d’annulation et de palement pour <br> 
+           satisfaire n’importe quel plan ou budget.</p></div>
+           
+        <div class="item">
+            <img class="img-se" src="./assets/images/image3.png" alt="Experiencs memorables">
+
+            <h3>Experiencs memorables</h3><p>Parcourez et reservez des visites et des <br> 
+            activites tellement incroyable, tu voudras <br>
+            le dire a tonamis.</p></div>
+      
+        <div class="item">
+            <img class="img-se" src="./assets/images/image4.png" alt="Qualité">
+            <h3>Qualité</h3><p>Normes de houte qualité; Des millions de
+            Commentaires.</p></div>
+        <div class="item">
+            <img class="img-se" src="./assets/images/image5.png" alt="Award-winning support">
+            <h3>Award-winning support</h3><p>Nouvveau prix? Nouveau plan? Aucun 
+            problème.Nous sommes la pour vous
+             aider, 24/24 et 7/7.</p></div>
+    </div>
+ 
+
+</section>
+<footer>
+    <div class="footer">
+        <h3>Contact : </h3>
+        <h4>N 433 Immeubles 3 Rue Zohour, Béni Mellal</h4>
+        <h4>contact@viatours.com</h4>
+    </div>
+</footer>
+   
+<script>
+    function O_pen() {
+      document.getElementById("mySidebar").style.display = "block";
+    }
+    
+    function C_lose() {
+      document.getElementById("mySidebar").style.display = "none";
+    }
+    </script>
+</body>
+</html>
